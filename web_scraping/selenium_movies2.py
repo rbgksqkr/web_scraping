@@ -35,6 +35,7 @@ while True:
 
     curr_height = next_height
 
+
 soup = BeautifulSoup(browser.page_source, "lxml")
 
 movies = soup.find_all("div", attrs={"class": "Vpfmgd"})
